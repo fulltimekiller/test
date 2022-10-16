@@ -2,20 +2,8 @@
 
 https://github.com/fulltimekiller/test
 
-Github那边已出现大面积封杀heroku代理项目，大家在github做好隐藏工作哦。。
+<img src="https://drive.google.com/uc?export=view&id=1_9p2unHJaRIdce04vm-zzeuZZqoOoaPO" >
 
-export default {
-    async fetch(request, env) {
-      let url = new URL(request.url);
-      if (url.pathname.startsWith('/')) {
-        url.hostname="example.com";
-        let new_request=new Request(url,request);
-        return fetch(new_request);
-      }
-      // Otherwise, serve the static assets.
-      return env.ASSETS.fetch(request);
-    }
-  };
 一、操作步骤：
 
 1、在浏览器复制链接   https://dashboard.heroku.com/new?template= 加上上传至Github的项目地址链接，回车进入Heroku参数设置界面
