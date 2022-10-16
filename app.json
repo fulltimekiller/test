@@ -1,11 +1,11 @@
 {
-    "name": "vmvltrshso",
-    "description": "vmvltrshso",
-    "keywords": ["vmvltrshso"],
+    "name": "justtest-vps",
+    "description": "justtest-vps",
+    "keywords": ["justtest-vps"],
     "env": {
          "PROTOCOL": {
             "description": "path路径说明:（斜杠/）+（自定义UUID）+（减号-）+（对应协议开头两小写字母：vl或vm或tr或sh或so）",
-            "value": "相关配置说明：http://ygkkk.blogspot.com/2022/05/herokuxrayvless-wsvmess-wstrojan-ws.html",
+            "value": "相关配置说明：https://arm.zhudl.ml/index.php/2022/10/16/heroku-cf/",
              "required": true
         },
         "SSencryption": {
